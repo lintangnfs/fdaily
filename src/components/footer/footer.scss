@@ -1,0 +1,29 @@
+.footer-wrapper {
+    border-top: 1px solid #E5E5E5;
+    padding: 30px 0;
+    margin-bottom: 50px;
+    width: 1080px;
+    .top-footer,
+    .bottom-footer,
+    .icon-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        * {
+            margin-bottom: auto;
+        }
+    }
+    .bottom-footer{
+        margin-top: 40px;
+    }
+    .icon img{
+        height: 40px;
+    }
+    .right-side {
+        width: auto;
+        height: 50px;
+    }
+    .footer-menu * {
+        margin-bottom: 10px;
+    }
+}
